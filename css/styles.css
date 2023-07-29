@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    background: linear-gradient(to right, #FFBED8, #C4DFDF);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+section h1{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    color: #FF008E;
+    text-transform: uppercase;
+}
+section #timer{
+    font-size: 4rem;
+    margin: 20px;
+}
+section button{
+    background-color: transparent;
+    border: #FF008E;
+    padding: 10px 20px;
+
+}
+button{
+    margin: 10px;
+    color: white;
+    width: 5rem;
+    cursor: pointer;
+
+}
+#start-button{
+background: #FF55BB;
+
+}
+#stop-button{
+    background: #B5EAEA;
+}
+#reset-button{
+    background: #865DFF;
+}
